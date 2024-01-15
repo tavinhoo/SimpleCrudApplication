@@ -1,0 +1,70 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Arquivos de compilação
+target/
+build/
+
+# Arquivos de configuração do IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Arquivos temporários
+*.log
+*.swp
+
+# Arquivos de configuração específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências geradas
+bin/
+lib/
+
+# Arquivos de propriedades específicos do ambiente
+application-dev.properties
+application-prod.properties
+application-test.properties
+
+# Arquivos de log
+logs/
+
+# Arquivos de configuração local
+application-local.properties
